@@ -81,7 +81,8 @@ a {
 }
 
 .logo-img {
-    height: 40px;
+    height: 50px;
+    max-width: 200px;
     width: auto;
     display: block;
     transition: var(--transition);
@@ -637,7 +638,8 @@ a {
     align-items: center;
     justify-content: center;
     width: 40px;
-    height: 40px;
+    height: 50px;
+    max-width: 200px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     color: rgba(255, 255, 255, 0.7);
