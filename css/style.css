@@ -516,6 +516,21 @@ a {
     resize: vertical;
 }
 
+/* Map Section */
+.map-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.map-section iframe {
+    filter: grayscale(20%);
+    transition: var(--transition);
+}
+
+.map-section iframe:hover {
+    filter: grayscale(0%);
+}
+
 /* Footer */
 .footer {
     background: var(--text-dark);
